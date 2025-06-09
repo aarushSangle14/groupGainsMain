@@ -1,28 +1,22 @@
 
-import { useState } from "react";
-import { SearchFilters } from "@/components/SearchFilters";
-import { PropertyCard } from "@/components/PropertyCard";
 import { HeroSection } from "@/components/HeroSection";
-import { FeaturedProperties } from "@/components/FeaturedProperties";
+import { FeaturedDeals } from "@/components/FeaturedDeals";
+import { BenefitsSection } from "@/components/BenefitsSection";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { CTASection } from "@/components/CTASection";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filters, setFilters] = useState({
-    priceRange: [0, 50000000],
-    bedrooms: "",
-    propertyType: "",
-    location: ""
-  });
-
   return (
     <div className="min-h-screen bg-background">
-      <HeroSection 
-        searchQuery={searchQuery}
-        setSearchQuery={setSearchQuery}
-        filters={filters}
-        setFilters={setFilters}
-      />
-      <FeaturedProperties />
+      <Header />
+      <HeroSection />
+      <BenefitsSection />
+      <FeaturedDeals />
+      <TestimonialsSection />
+      <CTASection />
+      <Footer />
     </div>
   );
 };
