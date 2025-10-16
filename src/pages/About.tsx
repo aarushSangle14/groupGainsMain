@@ -36,70 +36,101 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            About GroupGains
+            Engineering a Smarter Way Home 🏡
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We're on a mission to ensure no home buyer overpays or feels alone during 
-            the biggest purchase of their life.
+            We're a team of passionate engineers who looked at the real estate market and saw a system 
+            that wasn't built for the people it serves. We saw frustrating roadblocks, confusing processes, 
+            and unnecessary costs standing between a family and their dream home, and between a builder 
+            and their next valued customer. The biggest roadblock? The middleman.
+          </p>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mt-4">
+            We knew there had to be a better way. So, we decided to build it.
           </p>
         </div>
 
         {/* Mission Statement */}
         <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-8 mb-16">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-foreground mb-6">Our Mission</h2>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              To democratize home buying in Mumbai and MMR by creating a transparent, 
-              community-driven platform where buyers can leverage collective bargaining 
-              power to secure the best possible deals on verified properties.
+            <h2 className="text-3xl font-bold text-foreground mb-6">Our Mission: Harnessing the Power of the Group</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              At GroupGains, our mission is to fundamentally reshape the property market by connecting 
+              buyers and builders directly. We believe in the power of the group to create unprecedented value. 
+              By bringing people together on a single, trusted platform, we engineer a situation where everyone gains.
             </p>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <p className="text-2xl font-semibold text-primary mb-2">₹847 Crores</p>
-              <p className="text-muted-foreground">Total savings generated for our community</p>
-            </div>
           </div>
         </div>
 
-        {/* Story Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-          <div>
-            <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                GroupGains was born from a simple observation: home buyers in Mumbai 
-                were getting raw deals, not because properties were overpriced, but 
-                because they lacked negotiating power.
-              </p>
-              <p>
-                Our founders, having experienced the frustration of solo home buying, 
-                realized that builders were more than willing to offer discounts for 
-                bulk sales – but individual buyers rarely had access to these deals.
-              </p>
-              <p>
-                We decided to change this by creating a platform where like-minded 
-                buyers could come together, share information, and negotiate as a group. 
-                The results exceeded our expectations.
-              </p>
-            </div>
+        {/* For Homebuyers Section */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-foreground mb-6">How You Gain: For Homebuyers</h2>
+          <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+            Join a smarter group of homebuyers who are tired of the old way. With GroupGains, the advantage is yours.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-foreground mb-3 text-lg">Collective Savings</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  By eliminating broker commissions and creating a direct channel, the savings are passed 
+                  directly to you. Your budget goes further, and your dream home becomes more attainable.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-foreground mb-3 text-lg">Transparent Pricing</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Knowledge is power. We provide a complete and transparent pricing history, so you can 
+                  track market trends and make your purchase with absolute confidence.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="font-semibold text-foreground mb-3 text-lg">Direct Access, Zero Hassle</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Connect directly with the builders. Get clear, honest answers from the source without 
+                  any filter, ensuring you have all the information you need to build your future.
+                </p>
+              </CardContent>
+            </Card>
           </div>
-          
-          <div className="space-y-6">
+        </div>
+
+        {/* For Builders Section */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-foreground mb-6">The Builder's Gain: A Partnership for Growth</h2>
+          <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+            Your expertise is in building exceptional homes, not navigating inefficient sales funnels. 
+            GroupGains is your strategic partner for sustainable growth.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card>
               <CardContent className="p-6">
-                <h3 className="font-semibold text-foreground mb-2">2022</h3>
-                <p className="text-muted-foreground">Founded with first group deal in Kharghar</p>
+                <h3 className="font-semibold text-foreground mb-3 text-lg">A Group of Qualified Buyers</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  We don't just provide leads; we provide a community. Get direct access to a large group 
+                  of verified, high-intent buyers, delivered in bulk.
+                </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <h3 className="font-semibold text-foreground mb-2">2023</h3>
-                <p className="text-muted-foreground">Expanded to cover entire Mumbai & MMR</p>
+                <h3 className="font-semibold text-foreground mb-3 text-lg">Significant Cost Reduction</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Dramatically lower your sales and marketing overhead. Our efficient model means you invest 
+                  less in chasing leads and more in what you do best—building.
+                </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <h3 className="font-semibold text-foreground mb-2">2024</h3>
-                <p className="text-muted-foreground">5000+ successful deals, ₹800+ Cr savings</p>
+                <h3 className="font-semibold text-foreground mb-3 text-lg">Direct Market Intelligence</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Engage with your customers directly to gain invaluable insights into what they truly want. 
+                  This direct feedback loop helps you build more desirable and successful projects.
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -125,23 +156,17 @@ const About = () => {
           </div>
         </div>
 
-        {/* Impact Stats */}
+        {/* Future Vision */}
         <div className="bg-primary rounded-2xl p-8 text-center">
-          <h2 className="text-3xl font-bold text-primary-foreground mb-8">Our Impact</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
-              <p className="text-4xl font-bold text-primary-foreground mb-2">5,000+</p>
-              <p className="text-primary-foreground/90">Happy Families</p>
-            </div>
-            <div>
-              <p className="text-4xl font-bold text-primary-foreground mb-2">₹14L</p>
-              <p className="text-primary-foreground/90">Average Savings per Deal</p>
-            </div>
-            <div>
-              <p className="text-4xl font-bold text-primary-foreground mb-2">50+</p>
-              <p className="text-primary-foreground/90">Builder Partners</p>
-            </div>
-          </div>
+          <h2 className="text-3xl font-bold text-primary-foreground mb-6">The Future is Direct</h2>
+          <p className="text-lg text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
+            We believe the future of real estate isn't about adding more layers; it's about removing them. 
+            It's about leveraging technology to create a marketplace that is fair, efficient, and built on trust. 
+            We are more than just a property portal; we are the foundation for a new era in real estate.
+          </p>
+          <p className="text-xl font-semibold text-primary-foreground mt-6">
+            Join us in building a better way home. 🤝
+          </p>
         </div>
       </div>
 
