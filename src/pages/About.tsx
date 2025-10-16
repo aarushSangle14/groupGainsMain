@@ -36,7 +36,7 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            About HomeHuddle
+            About GroupGains
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             We're on a mission to ensure no home buyer overpays or feels alone during 
@@ -66,7 +66,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                HomeHuddle was born from a simple observation: home buyers in Mumbai 
+                GroupGains was born from a simple observation: home buyers in Mumbai 
                 were getting raw deals, not because properties were overpriced, but 
                 because they lacked negotiating power.
               </p>

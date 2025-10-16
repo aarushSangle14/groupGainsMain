@@ -180,7 +180,7 @@ const BuyerRegister = () => {
               <div className="flex items-start space-x-2">
                 <Checkbox id="terms" className="mt-1" />
                 <Label htmlFor="terms" className="text-sm leading-relaxed">
-                  I agree to receive updates about relevant property deals, group negotiations, and meetups via WhatsApp, SMS, and email. I understand that HomeHuddle is a free service with no hidden charges.
+                  I agree to receive updates about relevant property deals, group negotiations, and meetups via WhatsApp, SMS, and email. I understand that GroupGains is a free service with no hidden charges.
                 </Label>
               </div>
 

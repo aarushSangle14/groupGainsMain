@@ -30,7 +30,7 @@ export const BenefitsSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Why Choose HomeHuddle?
+            Why Choose GroupGains?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We're changing how homes are bought in Mumbai. Join thousands of smart buyers 

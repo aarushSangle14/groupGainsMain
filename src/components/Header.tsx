@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Menu } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/groupgains-logo.jpg";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,10 +14,7 @@ export const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">HH</span>
-            </div>
-            <span className="font-bold text-xl text-foreground">HomeHuddle</span>
+            <img src={logo} alt="GroupGains" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

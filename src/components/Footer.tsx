@@ -1,5 +1,6 @@
 
 import { Link } from "react-router-dom";
+import logo from "@/assets/groupgains-logo.jpg";
 
 export const Footer = () => {
   return (
@@ -8,11 +9,8 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">HH</span>
-              </div>
-              <span className="font-bold text-xl text-white">HomeHuddle</span>
+            <div className="mb-4">
+              <img src={logo} alt="GroupGains" className="h-12 w-auto" />
             </div>
             <p className="text-sm leading-relaxed">
               Your best deal home buying buddy in Mumbai & MMR. Join group negotiations 
@@ -55,7 +53,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm">
-            © 2024 HomeHuddle. All rights reserved. Made with ❤️ for home buyers in Mumbai & MMR.
+            © 2024 GroupGains. All rights reserved. Made with ❤️ for home buyers in Mumbai & MMR.
           </p>
         </div>
       </div>

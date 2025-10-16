@@ -7,14 +7,14 @@ export const TestimonialsSection = () => {
       name: "Priya Sharma",
       location: "Bought 2BHK in Kharghar",
       savings: "₹7 lakhs",
-      quote: "I saved ₹7 lakhs thanks to this platform! The group negotiation was transparent and the builder was genuine. Highly recommend HomeHuddle.",
+      quote: "I saved ₹7 lakhs thanks to this platform! The group negotiation was transparent and the builder was genuine. Highly recommend GroupGains.",
       image: "/placeholder.svg"
     },
     {
       name: "Rajesh Patel",
       location: "Bought 3BHK in Thane",
       savings: "₹12 lakhs",
-      quote: "As a first-time buyer, I was worried about getting cheated. HomeHuddle's team guided me throughout and I got an amazing deal with other buyers.",
+      quote: "As a first-time buyer, I was worried about getting cheated. GroupGains' team guided me throughout and I got an amazing deal with other buyers.",
       image: "/placeholder.svg"
     },
     {
@@ -34,7 +34,7 @@ export const TestimonialsSection = () => {
             Success Stories
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real people, real savings. See how HomeHuddle helped buyers across Mumbai 
+            Real people, real savings. See how GroupGains helped buyers across Mumbai 
             get better deals on their dream homes.
           </p>
         </div>
