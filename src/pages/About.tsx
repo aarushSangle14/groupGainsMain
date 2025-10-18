@@ -36,16 +36,16 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Engineering a Smarter Way Home 🏡
+            About GROUPGAINS: Building Value, Together. 🏡
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We're a team of passionate engineers who looked at the real estate market and saw a system 
-            that wasn't built for the people it serves. We saw frustrating roadblocks, confusing processes, 
-            and unnecessary costs standing between a family and their dream home, and between a builder 
-            and their next valued customer. The biggest roadblock? The middleman.
+            We are a team of passionate young engineers who looked at the real estate landscape and saw a system 
+            ripe for change. We saw the frustration of homebuyers navigating a maze of middlemen and the challenge 
+            for builders to connect with genuine customers efficiently. The process was fragmented, costly, and 
+            lacked transparency.
           </p>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mt-4">
-            We knew there had to be a better way. So, we decided to build it.
+            We knew technology could bridge this gap. From this vision, GROUPGAINS was born.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-foreground mb-6">Our Mission: Harnessing the Power of the Group</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              At GroupGains, our mission is to fundamentally reshape the property market by connecting 
+              At GROUPGAINS, our mission is to fundamentally reshape the property market by connecting 
               buyers and builders directly. We believe in the power of the group to create unprecedented value. 
               By bringing people together on a single, trusted platform, we engineer a situation where everyone gains.
             </p>
@@ -65,7 +65,7 @@ const About = () => {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-foreground mb-6">How You Gain: For Homebuyers</h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            Join a smarter group of homebuyers who are tired of the old way. With GroupGains, the advantage is yours.
+            Join a smarter group of homebuyers who are tired of the old way. With GROUPGAINS, the advantage is yours.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card>
@@ -103,7 +103,7 @@ const About = () => {
           <h2 className="text-3xl font-bold text-foreground mb-6">The Builder's Gain: A Partnership for Growth</h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
             Your expertise is in building exceptional homes, not navigating inefficient sales funnels. 
-            GroupGains is your strategic partner for sustainable growth.
+            GROUPGAINS is your strategic partner for sustainable growth.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card>
