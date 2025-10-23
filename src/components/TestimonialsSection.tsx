@@ -34,7 +34,7 @@ export const TestimonialsSection = () => {
             Success Stories
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real people, real savings. See how GroupGains helped buyers across Mumbai 
+            Real people, real savings. See how GroupGains helped buyers across Pune 
             get better deals on their dream homes.
           </p>
         </div>

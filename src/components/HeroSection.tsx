@@ -17,7 +17,7 @@ export const HeroSection = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Join group negotiations with builders in Mumbai & MMR. Get verified projects, 
+              Join group negotiations with builders in Pune. Get verified projects, 
               pre-negotiated discounts, and transparent processes – all for free.
             </p>
 

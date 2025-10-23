@@ -13,7 +13,7 @@ export const FeaturedProperties = () => {
             Featured Properties
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Discover handpicked premium properties in Mumbai's most desirable locations
+            Discover handpicked premium properties in Pune's most desirable locations
           </p>
         </div>
         

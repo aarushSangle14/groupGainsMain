@@ -13,7 +13,7 @@ export const Footer = () => {
               <img src={logo} alt="GroupGains" className="h-12 w-auto" />
             </div>
             <p className="text-sm leading-relaxed">
-              Your best deal home buying buddy in Mumbai & MMR. Join group negotiations 
+              Your best deal home buying buddy in Pune. Join group negotiations 
               and save lakhs on verified properties.
             </p>
           </div>
@@ -53,7 +53,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm">
-            © 2024 GroupGains. All rights reserved. Made with ❤️ for home buyers in Mumbai & MMR.
+            © 2024 GroupGains. All rights reserved. Made with ❤️ for home buyers in Pune.
           </p>
         </div>
       </div>

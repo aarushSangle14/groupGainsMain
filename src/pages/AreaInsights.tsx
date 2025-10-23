@@ -13,7 +13,7 @@ const AreaInsights = () => {
             Area Insights
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Data-driven insights for Mumbai & MMR properties
+            Data-driven insights for Pune properties
           </p>
           <p className="text-muted-foreground">
             This page is under development. Coming soon with detailed area analysis, 

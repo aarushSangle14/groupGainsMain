@@ -8,8 +8,8 @@ export const FeaturedDeals = () => {
   const deals = [
     {
       id: 1,
-      title: "2BHK in Kharghar",
-      location: "Kharghar, Navi Mumbai",
+      title: "2BHK in Bibwewadi",
+      location: "Bibwewadi, Pune",
       buyers: 8,
       timeline: "2 weeks to finalize",
       marketRate: "₹85 L",
@@ -19,8 +19,8 @@ export const FeaturedDeals = () => {
     },
     {
       id: 2,
-      title: "1BHK in Mira Road",
-      location: "Mira Road, Mumbai",
+      title: "1BHK in Katraj",
+      location: "Katraj, Pune",
       buyers: 12,
       timeline: "1 week to finalize",
       marketRate: "₹65 L",
@@ -30,8 +30,8 @@ export const FeaturedDeals = () => {
     },
     {
       id: 3,
-      title: "3BHK in Thane",
-      location: "Thane West, Mumbai",
+      title: "3BHK in Kothrud",
+      location: "Kothrud, Pune",
       buyers: 5,
       timeline: "3 weeks to finalize",
       marketRate: "₹1.2 Cr",

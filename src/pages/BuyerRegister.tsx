@@ -22,8 +22,8 @@ const BuyerRegister = () => {
   });
 
   const locations = [
-    "Kharghar", "Mira Road", "Thane", "Bandra", "Andheri", "Powai", 
-    "Navi Mumbai", "Goregaon", "Malad", "Kandivali", "Borivali"
+    "Bibwewadi", "Katraj", "Kothrud", "Hadapsar", "Wakad", "Hinjewadi", 
+    "Koregaon Park", "Viman Nagar", "Baner", "Aundh", "Pimpri Chinchwad"
   ];
 
   const bhkOptions = ["1BHK", "2BHK", "3BHK", "4BHK+"];
@@ -88,7 +88,7 @@ const BuyerRegister = () => {
               {/* Preferences */}
               <div>
                 <Label className="text-base font-medium mb-3 block">
-                  Preferred Locations in Mumbai/MMR *
+                  Preferred Locations in Pune *
                 </Label>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                   {locations.map((location) => (

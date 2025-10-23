@@ -11,7 +11,7 @@ export const CTASection = () => {
             Ready to Get the Best Deal on Your Dream Home?
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-            Join thousands of smart buyers in Mumbai & MMR who've saved lakhs through group negotiations. 
+            Join thousands of smart buyers in Pune who've saved lakhs through group negotiations. 
             Register now and start your journey to homeownership.
           </p>
           

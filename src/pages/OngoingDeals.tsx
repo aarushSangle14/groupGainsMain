@@ -10,8 +10,8 @@ const OngoingDeals = () => {
   const deals = [
     {
       id: 1,
-      title: "2BHK in Kharghar",
-      location: "Kharghar, Navi Mumbai",
+      title: "2BHK in Bibwewadi",
+      location: "Bibwewadi, Pune",
       buyers: 8,
       timeline: "2 weeks to finalize",
       marketRate: "₹85 L",
@@ -23,8 +23,8 @@ const OngoingDeals = () => {
     },
     {
       id: 2,
-      title: "1BHK in Mira Road",
-      location: "Mira Road, Mumbai",
+      title: "1BHK in Katraj",
+      location: "Katraj, Pune",
       buyers: 12,
       timeline: "1 week to finalize",
       marketRate: "₹65 L",
@@ -36,8 +36,8 @@ const OngoingDeals = () => {
     },
     {
       id: 3,
-      title: "3BHK in Thane",
-      location: "Thane West, Mumbai",
+      title: "3BHK in Kothrud",
+      location: "Kothrud, Pune",
       buyers: 5,
       timeline: "3 weeks to finalize",
       marketRate: "₹1.2 Cr",
@@ -49,8 +49,8 @@ const OngoingDeals = () => {
     },
     {
       id: 4,
-      title: "2BHK in Bandra East",
-      location: "Bandra East, Mumbai",
+      title: "2BHK in Koregaon Park",
+      location: "Koregaon Park, Pune",
       buyers: 15,
       timeline: "5 days to finalize",
       marketRate: "₹2.1 Cr",
@@ -72,7 +72,7 @@ const OngoingDeals = () => {
             Ongoing Group Deals
           </h1>
           <p className="text-xl text-muted-foreground">
-            Join active negotiations and save lakhs on verified properties in Mumbai & MMR
+            Join active negotiations and save lakhs on verified properties in Pune
           </p>
         </div>
 

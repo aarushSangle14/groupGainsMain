@@ -33,7 +33,7 @@ export const BenefitsSection = () => {
             Why Choose GroupGains?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We're changing how homes are bought in Mumbai. Join thousands of smart buyers 
+            We're changing how homes are bought in Pune. Join thousands of smart buyers 
             who've saved lakhs through group negotiations.
           </p>
         </div>
