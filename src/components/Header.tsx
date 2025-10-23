@@ -41,6 +41,9 @@ export const Header = () => {
             <Button variant="outline" asChild>
               <Link to="/login">Login</Link>
             </Button>
+            <Button variant="outline" asChild>
+              <Link to="/builder-register">Register as Builder</Link>
+            </Button>
             <Button asChild>
               <Link to="/register">Register as Buyer</Link>
             </Button>
@@ -94,6 +97,9 @@ export const Header = () => {
               <div className="px-3 py-2 space-y-2">
                 <Button variant="outline" className="w-full" asChild>
                   <Link to="/login">Login</Link>
+                </Button>
+                <Button variant="outline" className="w-full" asChild>
+                  <Link to="/builder-register">Register as Builder</Link>
                 </Button>
                 <Button className="w-full" asChild>
                   <Link to="/register">Register as Buyer</Link>

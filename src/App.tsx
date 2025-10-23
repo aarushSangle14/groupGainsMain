@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import OngoingDeals from "./pages/OngoingDeals";
 import BuyerRegister from "./pages/BuyerRegister";
+import BuilderRegister from "./pages/BuilderRegister";
 import AreaInsights from "./pages/AreaInsights";
 import Meetups from "./pages/Meetups";
 import Builders from "./pages/Builders";
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/ongoing-deals" element={<OngoingDeals />} />
           <Route path="/register" element={<BuyerRegister />} />
+          <Route path="/builder-register" element={<BuilderRegister />} />
           <Route path="/area-insights" element={<AreaInsights />} />
           <Route path="/meetups" element={<Meetups />} />
           <Route path="/builders" element={<Builders />} />
